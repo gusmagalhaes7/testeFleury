@@ -63,7 +63,7 @@ class App extends Component {
                 <td>
                   {new Date(dado.PEFI_DH_NASCIMENTO).toLocaleDateString()}
                 </td>
-                <td>{dado.ID_FICH_NR_FICHA}</td>
+                <td>{dado.ID_ITEM_NR_ITEM}</td>
                 <td>{dado.ID_ITEM_NR_SUBITEM}</td>
                 <td>{dado.PROD_SL_EXAME}</td>
               </tr>
